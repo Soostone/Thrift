@@ -45,7 +45,7 @@ Library
   Hs-Source-Dirs:
     src
   Build-Depends:
-    base >= 4, base < 5, network, ghc-prim, binary, bytestring, HTTP
+    base >= 4, base < 5, network, ghc-prim, binary, bytestring, HTTP, network-uri
   Exposed-Modules:
     Thrift, Thrift.Protocol, Thrift.Transport, Thrift.Protocol.Binary
     Thrift.Transport.Handle, Thrift.Transport.Framed, Thrift.Transport.HttpClient, Thrift.Server
